@@ -1,6 +1,6 @@
 async function aliveCommand(sock, chatId) {
     try {
-        const message = `*🤖 Knight Bot is Active!*\n\n` +
+        const message = `*🤖 ꧁༺silͥent bͣoͫt༻꧂༒⁶⁶⁶ is Active!*\n\n` +
                        `*Version:* 1.0.0\n` +
                        `*Status:* Online\n` +
                        `*Mode:* Public\n\n` +
@@ -9,7 +9,7 @@ async function aliveCommand(sock, chatId) {
                        `• Antilink Protection\n` +
                        `• Fun Commands\n` +
                        `• And more!\n\n` +
-                       `Type *.menu* for full command list`;
+                       `_*𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚂𝙴𝙴 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 𝙻𝙸𝚂𝚃, 𝚃𝚈𝙿𝙴 *.𝙼𝙴𝙽𝚄* 📖*_`;
 
         await sock.sendMessage(chatId, {
             text: message,
@@ -17,8 +17,8 @@ async function aliveCommand(sock, chatId) {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterJid: '12036316151368599@newsletter',
+                    newsletterName: '꧁༺silͥent bͣoͫt༻꧂༒⁶⁶⁶',
                     serverMessageId: -1
                 }
             }
